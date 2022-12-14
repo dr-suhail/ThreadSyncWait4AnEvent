@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Build file for our first application -->
+
+<project name="mutual exculusion" default="build" basedir=".">
+    <target name="build" >
+        <javac srcdir="src" destdir="." debug="true"
+            includes="**/*.java"
+            />
+    </target>
+</project>
+
